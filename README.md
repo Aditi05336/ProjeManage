@@ -342,7 +342,10 @@ Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apike
 
 Then paste that api api key in lib/screens/create_task.dart
 ```
-REPLACE WITH :-> '<ENTER YOUR GEMINI KEY HERE>' ---> 'AfcgfT.....iL'
+REPLACE
+'<ENTER YOUR GEMINI KEY HERE>'
+         WITH
+    'AfcgfT.....iL'
 ```
 
 ```dart
