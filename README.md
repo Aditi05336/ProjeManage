@@ -338,7 +338,12 @@ This generates `lib/firebase_options.dart` automatically.
 
 ### 4 — Set up Gemini AI
 
-Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey) and set it in the `CreateTaskScreen` or via a `.env` approach:
+Get a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey):
+
+Then paste that api api key in lib/screens/create_task.dart
+```
+REPLACE WITH :-> '<ENTER YOUR GEMINI KEY HERE>' ---> 'AfcgfT.....iL'
+```
 
 ```dart
 // lib/screens/create_task_screen.dart
