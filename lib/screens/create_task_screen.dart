@@ -50,7 +50,7 @@ class _CreateTaskScreenState extends State<CreateTaskScreen> {
     setState(() => _isGeneratingDesc = true);
 
     try {
-      const apiKey = 'AIzaSyCwEJJe_vDOnBZk071txZHjL8liHBNsLwQ';
+      const apiKey = '<ENTER YOUR GEMINI API KEY HERE>';
       final model = GenerativeModel(model: 'gemini-2.5-flash', apiKey: apiKey); // ✅ FIXED
       final prompt = 'Generate a short, professional task description for a task titled "$title" in a project management app. Keep it under 3 sentences.';
       
